@@ -222,9 +222,9 @@ def admin_home():
 def helper_file_page():
 	return send_from_directory("static","helper_file.txt")
 
-@app.route("/k3y_is_n0tkn0wn.png")
+@app.route("/k3y_is_n0tkn0wn.jpg")
 def stego_file_page():
-	return send_from_directory("static","k3y_is_n0tkn0wn.png")
+	return send_from_directory("static","k3y_is_n0tkn0wn.jpg")
 
 
 @app.route("/admin_login", methods = ["POST","GET"])
