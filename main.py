@@ -18,10 +18,10 @@ from decouple import config
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = config("SECRET_KEY")
-app.config['SQLALCHEMY_DATABASE_URI'] = config("SQLALCHEMY_DATABASE_URI","sqlite:///user-data-collections.db")
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://userdatacollection_user:8TOfAIvvt80T6KMmLmHlhyJewrgMPYR5@dpg-cfgjhapgp3jjsedkmer0-a.oregon-postgres.render.com/userdatacollection"
+# app.config['SQLALCHEMY_DATABASE_URI'] = config("SQLALCHEMY_DATABASE_URI","sqlite:///user-data-collections.db")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = "OFF"
 db = SQLAlchemy(app)
-
 
 
 login_manager = LoginManager()
