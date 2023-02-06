@@ -1,0 +1,13 @@
+flask
+flask_sqlalchemy
+flask_wtf
+wtforms
+wtforms.validators
+flask_login
+Werkzeug>=2.0.1
+datetime
+pyperclip
+gunicorn==20.1.0
+python_dotenv
+python-decouple==3.4
+psycopg2_binary==2.9.1

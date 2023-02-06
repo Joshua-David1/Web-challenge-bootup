@@ -1,0 +1,190 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+
+
+body{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+input{
+	border-radius: 15px;
+	border: none;
+	background-color: #EFF2F1;
+	margin: 20px;
+	font-family: 'Mate SC', serif;
+	padding: 8px;
+	text-align: center;
+	width: 90%;
+}
+
+
+h2.log-reg-title{
+	color: #6BDDED;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+h2.about-title{
+	color: #6BDDED;
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+input:focus{
+	font-family: serif;
+	outline: none;
+}
+
+button.submit-button{
+	border-radius: 15px;
+	background-color: #6BDDED;
+	position: relative;
+	color: white;
+	top: 50px;
+	transition: 1.5s;
+	width: 150px;
+}
+
+button.submit-button:hover{
+	background-color: #59ECFE;
+}
+
+button.home-button{
+	border-radius: 15px;
+	background-color: #6BDDED;
+	position: relative;
+	color: white;
+	top: 22px;
+	transition: 1.5s;
+	width: 150px;
+}
+
+button.home-button:hover{
+	background-color: #59ECFE;
+}
+
+button.home-button a{
+	color: white;
+}
+
+button.home-button a:hover{
+	text-decoration: none;
+}
+
+
+.form-div{
+	margin-top: 0px;
+}
+
+.main-page{
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 20px 20px 30px #DAF6F9;
+	height: 500px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px;
+	padding-top: 50px;
+	text-align: center;
+	width: 300px;
+}
+
+.main-home-page{
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 20px 20px 30px #DAF6F9;
+	height: 500px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px;
+	padding-top: 20px;
+	text-align: center;
+	width: 300px;
+}
+
+.optional-div{
+	border-radius: 20px;
+	position: absolute;
+	top: 77%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+/*	background-color: white;*/
+	width: 300px;
+	height: 50px;
+	text-align: center;
+}
+
+.log-reg-logo{
+	top: -30px;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%);
+	width: 80px;
+}
+
+.optional-div{
+	position: absolute;
+	top: 550px;
+}
+
+.optional-div p a{
+	font-weight: 600;
+	text-decoration: none;
+	color: #59ECFE;
+	transition: 1.5s;
+}
+
+.optional-div p a:hover{
+	color: #DAF6F9;
+}
+
+.chat-screen-div{
+	background-color: blueviolet;
+	width: 100%;
+	height: 100%;
+	margin: 10%;
+}
+
+.flash{
+	position: relative;
+	background-color: #CBF3DA;
+	display: inline-block;
+	border-radius: 5px;
+	color:#2ED16A;
+	font-size:15px;
+	top: 20px;
+	padding: 5px;
+}
+
+
+.about-title+p{
+	font-size: 16px;
+	font-family: 'Mate SC', serif;
+}
+
+.fa-home{
+	background-color: #DAF6F9;
+	border-radius: 10px;
+	color: #59ECFE;
+	padding: 7px;
+	font-size: 20px;
+	position: absolute;
+	bottom: 0;
+	transform: translate(-50%,50%);
+}
